@@ -1,0 +1,54 @@
+header {
+    background-color:aliceblue;
+
+}
+
+#header { 
+    text-align: center;
+}
+
+
+
+
+img {
+    width: 175px;
+    place-content: center;
+   
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    background-color:aliceblue;
+    text-decoration: none;
+}
+
+@media (min-width: 600px) { 
+    header { 
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+
+div.grid-container{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+div.grid-container.foto1 {
+    place-content: center; 
+
+
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    
+}
