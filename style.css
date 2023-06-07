@@ -1,13 +1,10 @@
-header {
-    background-color:aliceblue;
 
+
+
+.menu a:hover { 
+    background-color: black;
+    color: aliceblue;
 }
-
-#header { 
-    text-align: center;
-}
-
-
 
 
 img {
@@ -22,29 +19,22 @@ nav ul {
     align-items: center;
     list-style: none;
     padding: 20px;
-    background-color:aliceblue;
+    
+}
+
+nav ul li a { 
     text-decoration: none;
+    color: black;
 }
 
-@media (min-width: 600px) { 
-    header { 
-        display: flex;
-        justify-content: space-between;
-    }
+#carouselExample { 
+    height: 50%;
+    width: 50%;
+   
 }
 
 
-div.grid-container{ 
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-}
 
-div.grid-container.foto1 {
-    place-content: center; 
-
-
-}
 
 footer {
     background-color: black;
