@@ -1,3 +1,14 @@
+p {
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+.intro {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
 
 .menu a:hover { 
     background-color: black;
@@ -31,11 +42,7 @@ nav ul li a {
    
 }
 
-.intro { 
-    font-size: 50px;
 
-    
-}
 
 footer {
     background-color: black;
@@ -54,3 +61,91 @@ div.img-inicio img {
     width: 100%;
     height: 100%;
 }
+
+
+
+/* css cafe&resto */
+
+
+.textoCafe{ 
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.productos {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Ysabeau SC', sans-serif;
+    padding: 30px;
+}
+
+.galeria img {
+    width: 600px;
+    
+}
+ .galeria { 
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+ }
+
+ .galeria img { 
+    max-width: auto;
+    padding: 1rem;
+ } 
+
+ /* css heladeria */
+
+ .textoHeladeria {
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 45px;
+    padding: 30px;
+ }
+
+ .imgHelados { 
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+ }
+
+ .imgHelados img{
+    width: 500px;
+ }
+ .imgHelados img { 
+    max-width: auto;
+    padding: 1rem;
+ }
+
+
+
+ /* css ubicacion */
+
+
+section.ubicacion {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.textoUbi {
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 40px;
+    padding: 30px;
+ }
+
+ .subTexto { 
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+ }
+
+
+ /* Contatco */
+
+
+ div.div-datos col-md-5 offset-md-1 mt-md-4 mb-4{ 
+    color: antiquewhite;
+ }
